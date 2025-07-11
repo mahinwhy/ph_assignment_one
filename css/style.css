@@ -5,6 +5,10 @@
     border-radius: 10px;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /* header*/
 
 .header {
@@ -50,10 +54,6 @@ nav{
 .btn2{
     width: 174px;
     height: 48px;
-}
-
-ul{
-    list-style-type: none;
 }
 
 .bannertext{
@@ -106,7 +106,49 @@ ul{
 .usersec{
     display: flex;
     margin: 116px 141px 131px 141px;
-    justify-content: space-between;
+    justify-content: center;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title2{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 856px;
+    height: 121px;
+}
+
+.prouser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ctitle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.subtitle1{
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    
 }
