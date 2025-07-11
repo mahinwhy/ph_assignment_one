@@ -1,3 +1,8 @@
+body{
+    background-color: #D6DDED;
+    margin: 0px;
+}
+
 .btn{
     font-size: 16px;
     color: white;
@@ -24,7 +29,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 150px;
+    margin: 0px 150px;
 }
 
 .titleLOGO {
@@ -108,7 +113,7 @@ nav{
     margin: 116px 141px 131px 141px;
     justify-content: center;
     background-color: rgba(78, 71, 255, 0.1);
-    border-radius: 24;
+    border-radius: 24px;
 }
 
 .container{
@@ -151,4 +156,55 @@ nav{
     font-weight: normal;
     color: rgba(0, 0, 0, 0.5);
     
+}
+
+/* Let’s Get In Touch Section */
+
+.getIT{
+    display: flex;
+    margin: 0px 141px 71px 141px;
+}
+
+.leftdiv2{
+    display: flex;
+}
+
+.stitle{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.rightdiv2{
+    display: flex;
+    width: 497px;
+    height: 490px;
+}
+
+.inputlabel{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.userinput{
+    width: 497px;
+    min-height: 70px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#massageinput{
+    width: 497px;
+    min-height: 135px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    resize: none;
+}
+
+.btn4{
+    width: 497px;
+    height: 62px;
 }
