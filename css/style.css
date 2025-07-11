@@ -218,6 +218,7 @@ nav{
 .getIT{
     display: flex;
     margin: 0px 141px 71px 141px;
+    justify-content: space-around;
 }
 
 .leftdiv2{
