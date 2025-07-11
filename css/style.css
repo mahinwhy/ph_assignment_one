@@ -1,0 +1,36 @@
+
+
+/* header*/
+
+.header {
+    background-image: url("../Assets/Hero-bg.png");
+    background-repeat: no-repeat;
+}
+
+
+/* nav style */
+
+nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+
+.titleLOGO {
+    /*cound't find inter*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+.btn1{
+    font-size: 12px;
+    color: white;
+    background-color: #4E47FF;
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+}
