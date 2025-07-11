@@ -25,7 +25,6 @@ ul{
 /* nav style */
 
 nav{
-    text-decoration: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -207,4 +206,42 @@ nav{
 .btn4{
     width: 497px;
     height: 62px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 104px 0px;
+}
+
+.titleLOGO2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+.subtitle2{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(137, 135, 161, 1);
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+a {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(137, 135, 161, 1);
+    text-decoration: none;
 }
